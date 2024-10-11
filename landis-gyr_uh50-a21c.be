@@ -32,14 +32,14 @@ scnt=0
 ends
 
 >M 1
-+1,5,o,0,2400,T550,4
++1,5,o,0,2400,LGUH50,4
 1,=so2,0
 1,6.8(@1,Zählerstand,MWh,mwh_count,3
-1,6.26*01(@1,Durchlauf VJ,m³,flow_count_year,2
+1,6.26*01(@1,Volumen VJ,m³,volume_flow_year,2
 1,6.8*01(@1,Zählerstand VJ,MWh,mwh_count_year,3
 1,6.31(@1,Betriebsstunden,h,operating_hours,0
 1,6.32(@1,Fehlerstunden,h,error_hours,0
 1,6.32*01(@1,Fehlerstunden VJ,h,error_hours_year,0
-1,6.26(@1,Gesamtdurchlauf,m³,flow_count,2
+1,6.26(@1,Volumen,m³,volume_flow,2
 1,9.31(@1,Fließdauer,h,flow_duration,0
 #

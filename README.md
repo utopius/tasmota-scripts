@@ -38,11 +38,11 @@ SML dump
 
 SML description
 ```
-6,26 - Volumen (m3)
-6,26*01 – Volumen im Vorjahr (m3)
-6,33*01 – Max. Durchfluss im Vorjahr (m3/h)
-6,6 – Maximale Leistung (kW)
-6,6*01 – Maximale Leistung im Vorjahr (kW)
+6.26 - Volumen (m3)
+6.26*01 – Volumen im Vorjahr (m3)
+6.33*01 – Max. Durchfluss im Vorjahr (m3/h)
+6.6 – Maximale Leistung (kW)
+6.6*01 – Maximale Leistung im Vorjahr (kW)
 6.31 – Betriebsstunden (Stunde)
 6.32 - Fehlerstunden (Stunde)
 6.32*01 – Fehlerstunden im Vorjahr (Stunde)

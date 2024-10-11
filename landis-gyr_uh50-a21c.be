@@ -41,5 +41,5 @@ ends
 1,6.32(@1,Fehlerstunden,h,error_hours,0
 1,6.32*01(@1,Fehlerstunden VJ,h,error_hours_year,0
 1,6.26(@1,Durchlauf,m³,flow_count,2
-1,9.31(@1,Fließdauer,h,flow_count,0
+1,9.31(@1,Fließdauer,h,flow_duration,0
 #

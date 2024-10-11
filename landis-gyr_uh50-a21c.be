@@ -35,15 +35,11 @@ ends
 +1,5,o,0,2400,T550,4
 1,=so2,0
 1,6.8(@1,Zählerstand,MWh,mwh_count,3
+1,6.26*01(@1,Durchlauf VJ,m³,flow_count_year,2
 1,6.8*01(@1,Zählerstand VJ,MWh,mwh_count_year,3
-1,6.6(@1,max. Heizleistung,kWh,heizleistung_max,1
-1,6.31(@1,Betriebsstunden,h,operating_time,0
-1,6.26(@1,Durchlauf,m³,m3_count,2
-1,6.26*01(@1,Durchlauf VJ,m³,m3_count_year,2
-1,9.24(@1,Messbereich,m³h,range,1
-1,6.33(@1,max. Durchlauf,m³h,durchlauf_max,3
-1,6.33*1(@1,max. Durchlauf VJ,m³h,durchlauf_max_year,3
-1,9.4(@1,max. VR Temp,C,lauf_max,1
+1,6.31(@1,Betriebsstunden,h,operating_hours,0
+1,6.32(@1,Fehlerstunden,h,error_hours,0
+1,6.32*01(@1,Fehlerstunden VJ,h,error_hours_year,0
+1,6.26(@1,Durchlauf,m³,flow_count,2
 1,9.31(@1,Fließdauer,h,flow_count,0
-1,6.36(@1,Stichtag,day of month,reporting_day,0
 #

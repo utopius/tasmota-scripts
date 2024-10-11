@@ -1,8 +1,11 @@
 # tasmota-scripts
 
-## Landis+Gyr T550 UH50-A21C-DE00-F
+Trying to get my smart meters integrated into [Home Assistant](https://www.home-assistant.io/).
 
-`landis-gyr_uh50-a21c_simple.be`
+## Landis+Gyr T550 UH50-A21C-DE00-F heat meter
+
+Script: [landis-gyr_uh50-a21c_simple.be](landis-gyr_uh50-a21c_simple.be)
+
 Combination of https://forum.creationx.de/forum/index.php?thread/1095-d0-z%C3%A4hler-sml-auslesen-mit-tasmota/&postID=41928#post41928 and https://docs.bitshake.de/script/ (search for "Landis+Gyr T550").
 
 SML dump
@@ -33,7 +36,7 @@ SML dump
 15:32:33.900 : !
 ```
 
-SML:
+SML description
 ```
 6,26 - Volumen (m3)
 6,26*01 – Volumen im Vorjahr (m3)
@@ -86,3 +89,8 @@ SML:
 9.6 – Verschiedene Einstellungen von Eneco (nicht bestätigt)
 F(n) – Fehlernummer (unbestätigt)
 ```
+
+## Related links
+
+* Tasmota Smart Meter Interface: https://tasmota.github.io/docs/Smart-Meter-Interface/#meter-definition
+* Tasmota SML Dekoder: https://tasmota-sml-parser.dicp.net/
